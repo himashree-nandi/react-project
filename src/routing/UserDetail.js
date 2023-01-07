@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-export default function UserDetail(props) {
+export default function UserDetail() {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [password, setPass] = useState("")
